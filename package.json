@@ -1,0 +1,31 @@
+{
+  "name": "pro-manage-backend",
+  "version": "1.0.0",
+  "description": "This is the Final Evaluation Test of Cuvette by project: Pro Manage Backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "Nodejs",
+    "Expressjs",
+    "JWT",
+    "MongoDB",
+    "Bcrypt"
+  ],
+  "author": "Naman Goel",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.5.0",
+    "nodemon": "^3.1.4"
+  }
+}
